@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomFromAlfred.QuizWebMVC.MyLearning", "TomFromAlfred.QuizWebMVC.MyLearning\TomFromAlfred.QuizWebMVC.MyLearning.csproj", "{B6095324-DFFB-482B-8B62-30E12769920B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TomFromAlfred.QuizWebMVC.MyLearning", "TomFromAlfred.QuizWebMVC.MyLearning\TomFromAlfred.QuizWebMVC.MyLearning.csproj", "{B6095324-DFFB-482B-8B62-30E12769920B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D20E10CA-3F11-404F-907F-98CCA8408123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FC0151B1-7BDD-4D01-9ABE-65D36079F2E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A2A7F583-F9A9-41D6-BCF9-29FD4E655F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{87ABBD8E-809B-4096-9182-ED5EC5C4D633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D063BE6A-AB0F-464A-B13D-1E7D6BA60949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6095324-DFFB-482B-8B62-30E12769920B} = {D063BE6A-AB0F-464A-B13D-1E7D6BA60949}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {529D69D1-F338-4622-A825-C826CB21A1B1}
