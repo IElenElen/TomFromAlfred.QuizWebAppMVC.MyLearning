@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuizMVC.Application\QuizMVC.Application.csproj" />
+    <ProjectReference Include="..\QuizMVC.Infrastructure\QuizMVC.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
